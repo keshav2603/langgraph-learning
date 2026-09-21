@@ -10,7 +10,7 @@ from langchain_core.tools import tool
 load_dotenv()
 
 llm = ChatOpenAI(
-    model="mistralai/mistral-small-2603",
+    model="qwen/qwen3.8-max:free",
     base_url="https://api.xkiro.com/v1",
     api_key="sk-xt-6410a898be211b08ee4c267237ac4c7904059bd32d087020",
 )
